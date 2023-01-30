@@ -1,0 +1,43 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 0 2rem;
+}
+
+nav ul{
+    display: flex;
+    
+}
+
+li{
+    list-style: none;
+    
+
+}
+
+ul li a{
+    color: #808080;
+    text-decoration: none;
+    text-transform: lowercase;
+    margin-right: 1.2rem;
+    transition: text-decoration 3s;
+    
+}
+
+li a #ativo{
+    color: #333333;
+    font-weight: bold;
+}
+
+ul li:last-child a{
+    margin-right: 0;
+}
+
+
+ul li a:hover{
+    text-decoration: underline;
+}
+
+/* section banner */
