@@ -89,3 +89,10 @@ ul li a:hover{
 .sobreDescricao{
     margin-top: 2rem;font-size: 1.2rem;color: #808080;
 }
+
+/* receitas area */
+
+.receitas{
+    display: flex;
+    flex-wrap: wrap;
+}
