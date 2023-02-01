@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -41,3 +47,45 @@ ul li a:hover{
 }
 
 /* section banner */
+
+.banner_imagem{
+    width: 100%;
+}
+
+.banner_titulo{
+    font-family: Pacifico, cursive;
+
+    color: #f9f9f9;
+    font-size: 5.07rem;
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 4px 4px rgba(0,0,0, 1);
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.sobreTitulo{
+    font-family: Pacifico, cursive;
+    color: #8D0606;
+    font-size: 3.18rem;
+    margin-top: 2rem;
+}
+
+.sobreDescricao{
+    margin-top: 2rem;font-size: 1.2rem;color: #808080;
+}
